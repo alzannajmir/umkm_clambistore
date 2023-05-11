@@ -14,42 +14,42 @@
 <body>
     <div class="container mt-5">
         <div class="card">
-            <img src="../assets/images/Jaket/jaket.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Jaket/jaket.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jaket Jeans Pria Dilan</h5>
                 <p class="card-text">Rp. 280.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Jaket/jaket2.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Jaket/jaket2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jacket Old but Gold</h5>
                 <p class="card-text">Rp. 250.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Jaket/jaket3.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Jaket/jaket3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jaket Kulit Garut</h5>
                 <p class="card-text">Rp. 2.200.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Jaket/jaket4.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Jaket/jaket4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Outer Totol</h5>
                 <p class="card-text">Rp. 210.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Jaket/jaket5.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Jaket/jaket5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Bomber Pria</h5>
                 <p class="card-text">Rp. 280.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Jaket/jaket6.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Jaket/jaket6.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Bukan Jaket</h5>
                 <p class="card-text">Rp. 110.000</p>

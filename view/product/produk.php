@@ -20,8 +20,8 @@
     <title>Produk Kami</title>
     <!-- icon -->
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="src/stylesheet/produk.css">
-    <link rel="shortcut icon" href="assets/images/logo.png" type="text/ico" />
+    <link rel="stylesheet" href="../../src/stylesheet/produk.css">
+    <link rel="shortcut icon" href="../../assets/images/logo.png" type="text/ico" />
 </head>
 
 <body>
@@ -29,7 +29,7 @@
     <!-- Navbar -->
     <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><span style="color: #BACDCB">@Klambi</span>Store.</a>
+            <a class="navbar-brand" href="../../index.php"><span style="color: #BACDCB">@Klambi</span>Store.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,15 +65,15 @@
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     </form>
-                    <li><a href="produk/baju.html" target="konten">Baju</a></li>
-                    <li><a href="produk/celana.html" target="konten">Celana</a></li>
-                    <li><a href="produk/jaket.html" target="konten">Jaket</a></li>
-                    <li><a href="produk/sepatu.html" target="konten">Sepatu</a></li>
-                    <li><a href="produk/semua.html" target="konten">Semua Produk</a></li>
+                    <li><a href="baju.php" target="konten">Baju</a></li>
+                    <li><a href="celana.php" target="konten">Celana</a></li>
+                    <li><a href="jaket.php" target="konten">Jaket</a></li>
+                    <li><a href="sepatu.php" target="konten">Sepatu</a></li>
+                    <li><a href="semua.php" target="konten">Semua Produk</a></li>
                 </ul>
             </div>
 
-            <iframe class="konten" name="konten" src="produk/baju.html"></iframe>
+            <iframe class="konten" name="konten" src="baju.php"></iframe>
 
         </div>
     </div>

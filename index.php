@@ -1,5 +1,5 @@
 <?php
-require_once 'src/db.php';
+require_once 'src/php/db.php';
 ?>
 
 <!doctype html>
@@ -20,7 +20,7 @@ require_once 'src/db.php';
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="src/assets/stylesheet/index.css">
+    <link rel="stylesheet" href="src/stylesheet/index.css">
     <title>Clambi Store</title>
     <!-- icon -->
     <link rel="shortcut icon" href="assets/icons/logo.png" type="text/icon" />
@@ -105,27 +105,27 @@ require_once 'src/db.php';
         <div class="container produk" id="produk">
             <div class="panel active" style="background-image: url('./assets/images/slider/slide1.jpg');">
                 <h3 style="color: #C7CFB7;">Top Collection
-                    <a href="produk.html">Beli Sekerang</a>
+                    <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide2.jpg');">
                 <h3 style="color: #C7CFB7;">Kumpulan Baju Ekslusif
-                    <a href="produk.html">Beli Sekerang</a>
+                    <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide3.jpg');">
                 <h3 style="color: #C7CFB7;">Hari Raya 1st Drops Collection
-                    <a href="produk.html">Beli Sekerang</a>
+                    <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide4.jpg');">
                 <h3 style="color: #C7CFB7;">April 2nd Drops Collection
-                    <a href="produk.html">Beli Sekerang</a>
+                    <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide5.jpg');">
                 <h3 style="color: #C7CFB7;">Kumpulan Jaket Ekslusif
-                    <a href="produk.html">Beli Sekerang</a>
+                    <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
         </div>
@@ -232,7 +232,7 @@ require_once 'src/db.php';
     <script>
         feather.replace()
     </script>
-    <script src="src/javascript/script.js"></script>
+    <script src="./src/javascript/script.js"></script>
 </body>
 
 </html>

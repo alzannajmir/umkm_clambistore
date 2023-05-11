@@ -14,63 +14,63 @@
 <body>
     <div class="container mt-5">
         <div class="card">
-            <img src="../assets/images/Celana/celana1.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Celana/celana1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jeans Robek Pria</h5>
                 <p class="card-text">Rp. 180.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Celana/celana2.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Celana/celana2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jeans Wanita</h5>
                 <p class="card-text">Rp. 150.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Celana/celana3.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Celana/celana3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jeans Pria</h5>
                 <p class="card-text">Rp. 200.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Celana/celana5.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Celana/celana5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jeans Pendek Wanita</h5>
                 <p class="card-text">Rp. 130.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Celana/celana6.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Celana/celana6.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jeans Pria Ekslusif</h5>
                 <p class="card-text">Rp. 280.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Celana/celana7.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Celana/celana7.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Celana Chinos</h5>
                 <p class="card-text">Rp. 210.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Celana/celana8.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Celana/celana8.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jeans Wanita Ekslusif</h5>
                 <p class="card-text">Rp. 280.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Celana/celana9.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Celana/celana9.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Chinos motif sapi warna Pria</h5>
                 <p class="card-text">Rp. 300.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Celana/celana4.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Celana/celana4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Jeans Robek Wanita Spesial Edition</h5>
                 <p class="card-text">Rp. 350.000</p>

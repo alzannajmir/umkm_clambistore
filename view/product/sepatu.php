@@ -14,63 +14,63 @@
 <body>
     <div class="container mt-5">
         <div class="card">
-            <img src="../assets/images/Sepatu/sepatu.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Sepatu/sepatu.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Nike Sport Merah</h5>
                 <p class="card-text">Rp. 1.180.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Sepatu/sepatu2.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Sepatu/sepatu2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Vans Merah School</h5>
                 <p class="card-text">Rp. 1.150.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Sepatu/sepatu3.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Sepatu/sepatu3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Green Nike Basketball</h5>
                 <p class="card-text">Rp. 2.200.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Sepatu/sepatu4.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Sepatu/sepatu4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Nike Kyrie 5 BHM</h5>
                 <p class="card-text">Rp. 3.130.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Sepatu/sepatu5.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Sepatu/sepatu5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Nike Jordan</h5>
                 <p class="card-text">Rp. 5.280.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Sepatu/sepatu6.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Sepatu/sepatu6.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Nike Kbryant Red</h5>
                 <p class="card-text">Rp. 2.210.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Sepatu/sepatu7.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Sepatu/sepatu7.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Adidas Daradas</h5>
                 <p class="card-text">Rp. 2.280.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Sepatu/sepatu8.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Sepatu/sepatu8.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Nike Jordan Women</h5>
                 <p class="card-text">Rp. 1.300.000</p>
             </div>
         </div>
         <div class="card">
-            <img src="../assets/images/Sepatu/sepatu9.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/images/Sepatu/sepatu9.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Nike JB Only one</h5>
                 <p class="card-text">Rp. 8.350.000</p>

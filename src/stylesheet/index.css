@@ -91,7 +91,7 @@ body p {
     background:
         linear-gradient(rgba(0, 0, 0, 0.463),
             rgba(34, 44, 44, 0.45)),
-        url(../images/jumbotron.jpg) fixed;
+        url(../../assets/images/jumbotron.jpg)fixed;
     background-size: cover;
     height: 30rem;
 }

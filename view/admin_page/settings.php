@@ -1,5 +1,5 @@
 <?php
-require_once 'src/db.php';
+require_once '../../src/php/db.php';
 ?>
 
 <!DOCTYPE html>

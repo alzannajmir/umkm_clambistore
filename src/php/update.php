@@ -56,16 +56,16 @@ move_uploaded_file($tmp, $path);
 
 $result = mysqli_query($conn, "UPDATE `settings` SET 
                               `value` = CASE `name`
-                                    WHEN 'nama_toko'        THEN '$nama_toko'
-                                    WHEN 'tagline_toko'     THEN '$tagline_toko'
-                                    WHEN 'jumbotron_toko'  THEN '$jumbotron_toko'
-                                    WHEN 'about_umkm'       THEN '$about_umkm'
-                                    WHEN 'link_instagram'        THEN '$link_instagram'
-                                    WHEN 'link_facebook'         THEN '$link_facebook'
-                                    WHEN 'link_twitter'         THEN '$link_twitter'                                   
-                                    WHEN 'link_lazada'         THEN '$link_lazada'
-                                    WHEN 'link_shopee'         THEN '$link_shopee'
-                                    WHEN 'link_tokopedia'          THEN '$link_tokopedia'  
+                                    WHEN 'nama_toko'              THEN '$nama_toko'
+                                    WHEN 'tagline_toko'           THEN '$tagline_toko'
+                                    WHEN 'jumbotron_toko'         THEN '$jumbotron_toko'
+                                    WHEN 'about_umkm'             THEN '$about_umkm'
+                                    WHEN 'link_instagram'         THEN '$link_instagram'
+                                    WHEN 'link_facebook'          THEN '$link_facebook'
+                                    WHEN 'link_twitter'           THEN '$link_twitter'                                   
+                                    WHEN 'link_lazada'            THEN '$link_lazada'
+                                    WHEN 'link_shopee'            THEN '$link_shopee'
+                                    WHEN 'link_tokopedia'         THEN '$link_tokopedia'  
                                     END
                               WHERE `name` IN ('nama_umkm', 'tagline_umkm', 'panel_1', 'panel_2', 'panel_3', 'jumbotron_toko', 'about_umkm', 'instagram', 'whatsapp', 'envelope', 'facebook', 'linkedin', 'twitter')
                               ");

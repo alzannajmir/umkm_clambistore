@@ -16,14 +16,14 @@ require_once '../../src/php/db.php';
 
         <!-- Home Meu -->
         <h1 class="mt-5" id="homemenu">Home Menu</h1>
-        <form>
+        <form action="../../src/php/update.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="nama">Nama Toko</label>
-                <input type="text" class="form-control" id="nama" name="nama_toko" value="<?php echo getValue('nama_toko') ?>">
+                <input type="text" class="form-control" id="nama" name="nama_toko" placeholder="nama toko" value="<?php echo getValue('nama_toko') ?>">
             </div>
             <div class="form-group">
-                <label for="email">Tagline Toko</label>
-                <input type="email" class="form-control" id="tagline" name="tagline_toko" value="<?php echo getValue('tagline_toko') ?>">
+                <label for="text">Tagline Toko</label>
+                <input type="text" class="form-control" id="tagline" name="tagline_toko" value="<?php echo getValue('tagline_toko') ?>">
             </div>
             <div class="mb-3">
                 <label for="formfile" class="form-label">Jumbotron</label>
@@ -35,7 +35,7 @@ require_once '../../src/php/db.php';
             <div class="form-group">
                 <label for="telepon">Deskripsi Toko</label>
                 <textarea type="tel" class="form-control" id="lokasi" name="tentang_kami"
-                    placeholder="bisa di isi dengan histtory atau profile toko" value="<?php echo getValue(tentang_kami)?>"></textarea>
+                    placeholder="bisa di isi dengan histtory atau profile toko" value="<?php echo getValue('tentang_kami')?>"></textarea>
             </div>
             <ul class="list-group">
                 <label for="telepon">Link Sosial Media</label>
@@ -78,7 +78,7 @@ require_once '../../src/php/db.php';
             </div>
 
             <h2 class="mt-4" id="produkpadaslide">Mengatur Produk pada Slide</h2>
-            <!-- <ul class="list-group">
+            <ul class="list-group">
                 <li class="list-group-item mb-2">
                     <label for="email">Kategori Satu</label>
                     <input type="email" class="form-control" id="tagline" name="kategori_satu" value="<?php echo getValue('kategori_satu') ?>">
@@ -109,9 +109,9 @@ require_once '../../src/php/db.php';
                     <label for="formfile" class="form-label"></label>
                     <input class="form-control" type="file" id="formfile" name="file_kategori_lima"  value="<?php echo getValue('file_kategori_lima') ?>">
                 </li>
-            </ul> -->
+            </ul>
             <h2 class="mt-4" id="menambahkanartikel">Menambahkan Artikel</h2>
-            <!-- <ul class="list-group">
+            <ul class="list-group">
                 <li class="list-group-item mb-2">
                     <label for="email">Per-Produk Satu</label>
                     <input type="email" class="form-control" id="tagline" name="produk_satu" value="<?php echo getValue('produk_satu') ?>">
@@ -162,7 +162,7 @@ require_once '../../src/php/db.php';
                         <a href="">+Tambah</a>
                     </div>
                 </li>
-            </ul> -->
+            </ul>
             <h2 class="mt-5">Pengaturan Umum</h2>
             <div class="form-group">
                 <div class="form-check">

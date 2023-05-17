@@ -13,10 +13,27 @@ require_once '../../src/php/db.php';
 
 <body>
     <div class="container">
-
-        <!-- Home Meu -->
-        <h1 class="mt-5" id="homemenu">Home Menu</h1>
         <form action="../../src/php/update.php" method="post" enctype="multipart/form-data">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <ul class="nav justify-content-center">
+                <form class="form-inline" style="display: block; margin-top: 10px;">
+                </form>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">link</a>
+            </li>
+        </ul>
+            
+        <!-- Home Meu -->
+            <h1 class="mt-5" id="homemenu">Home Menu</h1>
             <div class="form-group">
                 <label for="nama">Nama Toko</label>
                 <input type="text" class="form-control" id="nama" name="nama_toko" placeholder="nama toko" value="<?php echo getValue('nama_toko') ?>">

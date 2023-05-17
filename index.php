@@ -143,6 +143,7 @@ require_once 'src/php/db.php';
                         <p class="text-muted mb-0">No.Telp (022)845356</p>
                         <p class="text-muted mb-0">Jl. Trunojoyo, Citarum, Bandung Wetan</p>
                     </div>
+
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="mt-5">
@@ -196,7 +197,7 @@ require_once 'src/php/db.php';
                     <input type="text" class="form-control" id="inputCity">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputState" class="form-label">State</label>
+                    <label for="inputState" class="form-label"></label>
                     <select id="inputState" class="form-select">
                         <option selected>Choose...</option>
                         <option>...</option>

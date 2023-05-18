@@ -63,8 +63,8 @@ require_once 'src/php/db.php';
 
     <!-- Jumbotron -->
     <section class="jumbotron shadow p-3 mb-5 bg-white rounded text-white container mt-5 mb-5">
-        <h1 class="display-4">Clambi Store</h1>
-        <p class="lead" style="color: #BACDCB;">Seratus persen produk lokal, ayo support UMKM</p>
+        <h1 class="display-4"><span style="color: #BACDCB"><?php echo getValue('nama_toko')?></span>Store.</h1>
+        <p class="lead" style="color: #BACDCB;"><?php echo getValue('tagline_toko')?></p>
         <!-- <hr class="my-4"> -->
     </section>
 
@@ -77,7 +77,7 @@ require_once 'src/php/db.php';
             </div>
             <div class="col-sm-6 pt-4 text-center">
                 <p>
-                    Pada bulan Maret 2023, ide Clambi.Co Brand lahir dari kegelisahan dua pemuda. Merka sadar bahwa
+                Pada bulan Maret 2023, ide Clambi.Co Brand lahir dari kegelisahan dua pemuda. Merka sadar bahwa
                     produk lokal
                     harus berkembang. Namun
                     mereka tidak pernah dapat menemukan apa yang mereka cari. Kebutuhan akan tempat untuk
@@ -93,7 +93,7 @@ require_once 'src/php/db.php';
                     sudut
                     pandang subjektif
                     dan personal, sehingga semua pemikiran dan ide yang diberikan selalu terlihat berbeda.
-
+                    <?php echo getValue('about_toko')?>
                 </p>
             </div>
         </div>
@@ -104,27 +104,27 @@ require_once 'src/php/db.php';
         <h2 class="text-center p-5 mt-5">Produk Kami</h2>
         <div class="container produk" id="produk">
             <div class="panel active" style="background-image: url('./assets/images/slider/slide1.jpg');">
-                <h3 style="color: #C7CFB7;">Top Collection
+                <h3 style="color: #C7CFB7;">Top Collection"<?php echo getValue('nama_kategori_1') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide2.jpg');">
-                <h3 style="color: #C7CFB7;">Kumpulan Baju Ekslusif
+                <h3 style="color: #C7CFB7;">Kumpulan Baju Ekslusif"<?php echo getValue('nama_kategori_2') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide3.jpg');">
-                <h3 style="color: #C7CFB7;">Hari Raya 1st Drops Collection
+                <h3 style="color: #C7CFB7;">Hari Raya 1st Drops Collection"<?php echo getValue('nama_kategori_3') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide4.jpg');">
-                <h3 style="color: #C7CFB7;">April 2nd Drops Collection
+                <h3 style="color: #C7CFB7;">April 2nd Drops Collection"<?php echo getValue('nama_kategori_4') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide5.jpg');">
-                <h3 style="color: #C7CFB7;">Kumpulan Jaket Ekslusif
+                <h3 style="color: #C7CFB7;">Kumpulan Jaket Ekslusif"<?php echo getValue('nama_kategori_5') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
@@ -134,7 +134,7 @@ require_once 'src/php/db.php';
     <!-- Lokasi Kami -->
     <section class="lokasi" id="services">
         <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0">Daftar lokasi Toko Clambi.Co</h2>
+            <h2 class="text-center mt-0">Daftar lokasi Toko <?php echo getValue('nama_toko')?></h2>
             <hr class="divider" />
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-4 col-md-6 text-center">

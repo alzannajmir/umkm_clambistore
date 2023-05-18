@@ -1,8 +1,9 @@
 <?php
+
 $servername = "localhost";
 $username   = "root";
 $password   = "";
-$db         = "db_clambi";
+$db         = "db_clambistore";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
@@ -11,6 +12,7 @@ $conn = new mysqli($servername, $username, $password, $db);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
+
 
 function getValue($name_settings)
 {

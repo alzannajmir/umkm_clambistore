@@ -49,13 +49,13 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
         ?>
 
         <div class="form-group">
-          <label for="nama_lengkap">Nama Lengkap:</label>
-          <input type="text" class="form-control" id="nama_lengkap" name="nama_lengkap" value="<?php echo $row['nama_lengkap']; ?>" disabled>
+          <label for="email">Nama Lengkap:</label>
+          <input type="text" class="form-control" id="email" name="email" value="<?php echo $row['email']; ?>" disabled>
         </div>
 
         <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" name="email" value="<?php echo $row['email']; ?>" disabled>
+          <label for="city">Email:</label>
+          <input type="text" class="form-control" id="city" name="city" value="<?php echo $row['city']; ?>" disabled>
         </div>
 
         <div class="form-group">

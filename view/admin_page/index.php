@@ -22,15 +22,13 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Admin Page</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.php">Email<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="settings.php">Settings</a>
-          <a class="nav-item nav-link" href="products.php">Products</a>
+          <a class="nav-item nav-link" href="index.php">Email</a>
+          <a class="nav-item nav-link active" href="settings.php">Pengaturan</a>
         </div>
       </div>
     </div>

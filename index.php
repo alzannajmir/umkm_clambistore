@@ -77,22 +77,6 @@ require_once 'src/php/db.php';
             </div>
             <div class="col-sm-6 pt-4 text-center">
                 <p>
-                Pada bulan Maret 2023, ide Clambi.Co Brand lahir dari kegelisahan dua pemuda. Merka sadar bahwa
-                    produk lokal
-                    harus berkembang. Namun
-                    mereka tidak pernah dapat menemukan apa yang mereka cari. Kebutuhan akan tempat untuk
-                    mengekspresikan dan menyuarakan
-                    ide-ide juga merupakan faktor mendasar yang mengarah pada penciptaan Clambi.Co.
-
-                    Lahirlah sebuah Website ini, tumbuh dan berakar pada keresahan, membuat Clambi.Co terikat dan
-                    melekat
-                    secara pribadi pada
-                    bidang UMKM. Ini adalah faktor penting dalam pengembangan Clambi.Co gaya dan sikap
-                    kritis, terkadang
-                    menyenangkan, tetapi selalu pintar. Itu juga membuat Clambi.Co Dulu selalu melihat sesuatu dari
-                    sudut
-                    pandang subjektif
-                    dan personal, sehingga semua pemikiran dan ide yang diberikan selalu terlihat berbeda.
                     <?php echo getValue('about_toko')?>
                 </p>
             </div>
@@ -104,27 +88,27 @@ require_once 'src/php/db.php';
         <h2 class="text-center p-5 mt-5">Produk Kami</h2>
         <div class="container produk" id="produk">
             <div class="panel active" style="background-image: url('./assets/images/slider/slide1.jpg');">
-                <h3 style="color: #C7CFB7;">Top Collection"<?php echo getValue('nama_kategori_1') ?>
+                <h3 style="color: #C7CFB7;"><?php echo getValue('nama_kategori_1') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide2.jpg');">
-                <h3 style="color: #C7CFB7;">Kumpulan Baju Ekslusif"<?php echo getValue('nama_kategori_2') ?>
+                <h3 style="color: #C7CFB7;"><?php echo getValue('nama_kategori_2') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide3.jpg');">
-                <h3 style="color: #C7CFB7;">Hari Raya 1st Drops Collection"<?php echo getValue('nama_kategori_3') ?>
+                <h3 style="color: #C7CFB7;"><?php echo getValue('nama_kategori_3') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide4.jpg');">
-                <h3 style="color: #C7CFB7;">April 2nd Drops Collection"<?php echo getValue('nama_kategori_4') ?>
+                <h3 style="color: #C7CFB7;"><?php echo getValue('nama_kategori_4') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
             <div class="panel" style="background-image: url('./assets/images/slider/slide5.jpg');">
-                <h3 style="color: #C7CFB7;">Kumpulan Jaket Ekslusif"<?php echo getValue('nama_kategori_5') ?>
+                <h3 style="color: #C7CFB7;">"<?php echo getValue('nama_kategori_5') ?>
                     <a href="view/product/produk.php">Beli Sekerang</a>
                 </h3>
             </div>
@@ -139,24 +123,24 @@ require_once 'src/php/db.php';
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="mt-5">
-                        <h3 class="h4 mb-2">Bandung</h3>
-                        <p class="text-muted mb-0">No.Telp (022)845356</p>
-                        <p class="text-muted mb-0">Jl. Trunojoyo, Citarum, Bandung Wetan</p>
+                        <h3 class="h4 mb-2"><?php echo getValue('kota1')?></h3>
+                        <p class="text-muted mb-0"><?php echo getValue('no_telp1')?></p>
+                        <p class="text-muted mb-0"><?php echo getValue('alamat1')?></p>
                     </div>
 
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="mt-5">
-                        <h3 class="h4 mb-2">Jakarta</h3>
-                        <p class="text-muted mb-0">No.Telp (022)843813</p>
-                        <p class="text-muted mb-0">Jl. Jendral Sudirman, Tanah Abang, Jakarta Pusat</p>
+                        <h3 class="h4 mb-2"><?php echo getValue('kota2')?></h3>
+                        <p class="text-muted mb-0"><?php echo getValue('no_telp2')?></p>
+                        <p class="text-muted mb-0"><?php echo getValue('alamat2')?></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="mt-5">
-                        <h3 class="h4 mb-2">Semarang</h3>
-                        <p class="text-muted mb-0">No.Telp (022)8432586</p>
-                        <p class="text-muted mb-0">Jl. RA Kartini, Rejosari, Semarang Timur</p>
+                        <h3 class="h4 mb-2"><?php echo getValue('kota3')?></h3>
+                        <p class="text-muted mb-0"><?php echo getValue('no_telp3')?></p>
+                        <p class="text-muted mb-0"><?php echo getValue('alamat3')?></p>
                     </div>
                 </div>
             </div>
@@ -169,15 +153,21 @@ require_once 'src/php/db.php';
         <hr class="divider" />
         <div class="row gx-5">
             <div class="col">
-                <i data-feather="shopping-cart"></i>
+                <a href="<?php echo getValue('shopee')?>">
+                    <i data-feather="shopping-cart"></i>
+                </a>
                 <div class="p-3">Shopee</div>
             </div>
             <div class="col">
-                <i data-feather="box"></i>
+                <a href="<?php echo getValue('lazada')?>">
+                    <i data-feather="box"></i>
+                </a>
                 <div class="p-3">Lazada</div>
             </div>
             <div class="col">
-                <i data-feather="shopping-bag"></i>
+                <a href="<?php echo getValue('tokopedia')?>">
+                    <i data-feather="shopping-bag"></i>
+                </a>
                 <div class="p-3">Tokopedia</div>
             </div>
         </div>
@@ -187,28 +177,31 @@ require_once 'src/php/db.php';
     <div id="kontak">
         <div class="container contact mt-5">
             <h2 class="text-center">Contact</h2>
-            <form class="row g-3 mt-2">
+            <form class="row g-3 mt-2" method="post" action="src/php/send-email.php">
                 <div class="col-md-12">
                     <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                    <input type="email" class="form-control" name= "email" id="email">
                 </div>
                 <div class="col-md-6">
                     <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <input type="text" class="form-control" name="city" id="city">
                 </div>
-                <div class="col-md-6">
-                    <label for="inputState" class="form-label"></label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
+                <div class="col-md-5-mt-4">
+                    <label for="subjek">Subject</label>
+                    <select class="form-control" id="subjek" name="subjek" required>
+                        <option value="">Chosee Subject</option>
+                        <option value="pertanyaan">pertanyaan</option>
+                        <option value="saran">Saran</option>
+                        <option value="keluhan">Keluhan</option>
+                        <option value="lainnya">Lainnya</option>
                     </select>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                    <textarea class="form-control" name="pesan" id="pesan" rows="4"></textarea>
                 </div>
                 <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button type="submit" class="btn btn-primary" id="kirimButton">Send</button>
                 </div>
             </form>
         </div>
@@ -217,10 +210,16 @@ require_once 'src/php/db.php';
     <footer>
         <div class="container">
             <p style="font-size: larger;">Social Media</p>
-            <p><i data-feather="instagram"></i>
-                <i data-feather="facebook"></i>
-                <i data-feather="twitter"></i>
-                <i data-feather="mail"></i>
+            <p>
+                <a href="">
+                    <i data-feather="instagram"></i>
+                </a>
+                <a href="">
+                    <i data-feather="facebook"></i>
+                </a>
+                <a href="">
+                    <i data-feather="twitter"></i>
+                </a>    
             </p>
             <p style="font-size: x-small;">Copyright &copy; Magang Nash 2023</p>
         </div>

@@ -26,21 +26,6 @@ $alamat2                  = $_POST['alamat2'];
 $kota3                    = $_POST['kota3'];
 $no_telp3                 = $_POST['no_telp3'];
 $alamat3                  = $_POST['alamat3'];
-// === Social Media
-$instagram               = $_POST['instagram'];
-$facebook                = $_POST['facebook'];
-$twitter                = $_POST['twitter'];
-
-$instagram_profile       = $_POST['instagram_profile'];
-$whatsapp_profile        = $_POST['whatsapp_profile'];
-$envelope_profile        = $_POST['envelope_profile'];
-$facebook_profile        = $_POST['facebook_profile'];
-$twitter_profile         = $_POST['twitter_profile'];
-$linkedin_profile        = $_POST['linkedin_profile'];
-
-$panel_1                 = $_POST['panel_1'];
-$panel_2                 = $_POST['panel_2'];
-$panel_3                 = $_POST['panel_3'];
 
 $result = mysqli_query($conn, "UPDATE `settings` SET 
                               `value` = CASE `name`
@@ -63,46 +48,36 @@ $result = mysqli_query($conn, "UPDATE `settings` SET
                                     WHEN 'alamat2'                    THEN '$alamat2'
                                     WHEN 'kota_3'                     THEN '$kota3'
                                     WHEN 'no_telp3'                   THEN '$no_telp3'
-                                    WHEN 'alamat3'                    THEN '$alamat3'
-                                    
-                                    WHEN 'panel_1'                    THEN '$panel_1'
-                                    WHEN 'panel_2'                    THEN '$panel_2'
-                                    WHEN 'panel_3'                    THEN '$panel_3'                                    
-                                    WHEN 'instagram'                  THEN '$instagram'
-                                    WHEN 'whatsapp'                   THEN '$whatsapp'
-                                    WHEN 'envelope'                   THEN '$envelope'                                   
-                                    WHEN 'facebook'                   THEN '$facebook'
-                                    WHEN 'linkedin'                   THEN '$linkedin'
-                                    WHEN 'twitter'                    THEN '$twitter'                                   
+                                    WHEN 'alamat3'                    THEN '$alamat3'                                   
                                     END
-                              WHERE `name` IN ('nama_toko', 'tagline_toko', 'about_umkm', 'panel_1', 'panel_2', 'panel_3', 'instagram', 'whatsapp', 'envelope', 'facebook', 'linkedin', 'twitter', 'nama_kategori_1', 'nama_kategori_2', 'nama_kategori_3', 'nama_kategori_4', 'nama_kategori_5', 'nama_rekomendasi_6')
-                              ");
+                              WHERE `name` IN ('nama_toko', 'tagline_toko', 'about_toko', 'nama_kategori_1', 'nama_kategori_2', 'nama_kategori_3', 'nama_kategori_4', 'nama_kategori_5', 'shopee', 'lazada', 'tokopedia', 
+                              'kota1', 'no_telp1', 'alamat1', 'kota2', 'no_telp2', 'alamat2', 'kota3', 'no_telp3', 'alamat3')");
 
 
 // =========== Jumbotron Image =============
 // mengambil nama file gambar jumbotron yang lama
-$result_jumbotron = mysqli_query($conn, "SELECT value FROM settings WHERE name='jumbotron_image'");
+$result_jumbotron = mysqli_query($conn, "SELECT value FROM settings WHERE name='gambar_jumbotron'");
 $row_jumbotron = mysqli_fetch_assoc($result_jumbotron);
 $old_jumbotron_image = $row_jumbotron['value'];
 
 // cek apakah ada file jumbotron yang diunggah sekarang
-if ($_FILES['jumbotron_image']['size'] > 0) {
+if ($_FILES['gambar_jumbotron']['size'] > 0) {
       // menghapus file gambar jumbotron yang lama
       $path_jumbotron = "../../assets/images/jumbotron/" . $old_jumbotron_image;
       if (file_exists($path_jumbotron)) {
             unlink($path_jumbotron);
       }
       // menyimpan gambar jumbotron yang baru
-      $jumbotron_image = $_FILES['jumbotron_image']['name'];
-      $tmp_jumbotron = $_FILES['jumbotron_image']['tmp_name'];
-      $path_jumbotron = "../../assets/images/jumbotron/" . $jumbotron_image;
+      $gambar_jumbotron = $_FILES['gambar_jumbotron']['name'];
+      $tmp_jumbotron = $_FILES['gambar_jumbotron']['tmp_name'];
+      $path_jumbotron = "../../assets/images/jumbotron/" . $gambar_jumbotron;
       move_uploaded_file($tmp_jumbotron, $path_jumbotron);
 
       // menyimpan nama file gambar menu rekomendasi yang baru ke dalam database
-      mysqli_query($conn, "UPDATE settings SET value='$jumbotron_image' WHERE name='jumbotron_image'");
+      mysqli_query($conn, "UPDATE settings SET value='$gambar_jumbotron' WHERE name='gambar_jumbotron'");
 } else {
       // jika tidak ada file jumbotron yang diunggah, gunakan file jumbotron lama
-      $jumbotron_image = $old_jumbotron_image;
+      $gambar_jumbotron = $old_jumbotron_image;
 }
 
 

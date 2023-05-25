@@ -35,6 +35,9 @@ require_once '../../src/php/db.php';
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="index.php">Email</a>
@@ -124,15 +127,15 @@ require_once '../../src/php/db.php';
         <div class="row panel mt-1">
           <div class="col-md-4">
             <label>Shopee</label>
-            <input type="text" class="form-control" name="lokasi" placeholder="link ig" value="<?php echo getValue('shopee') ?>">
+            <input type="text" class="form-control" name="shopee" placeholder="link ig" value="<?php echo getValue('shopee') ?>">
           </div>
           <div class="col-md-4">
             <label>Lazada</label>
-            <input type="text" class="form-control" name="lokasi_link" placeholder="Link fb" value="<?php echo getValue('lazada') ?>">
+            <input type="text" class="form-control" name="lazada" placeholder="Link fb" value="<?php echo getValue('lazada') ?>">
           </div>
           <div class="col-md-4">
             <label>Tokopedia</label>
-            <input type="text" class="form-control" name="jam_buka" placeholder="link twitter" value="<?php echo getValue('tokopedia') ?>">
+            <input type="text" class="form-control" name="tokopedia" placeholder="link twitter" value="<?php echo getValue('tokopedia') ?>">
           </div>
         </div>
       </div>
@@ -141,21 +144,21 @@ require_once '../../src/php/db.php';
         <div class="row panel mt-2">
           <div class="col-md-4 p-2">
             <label>Cabang 1</label>
-            <input type="text" class="form-control" name="kota" placeholder="kota" value="<?php echo getValue('kota1') ?>">
-            <input type="text" class="form-control" name="no_telp" placeholder="no telp" value="<?php echo getValue('no_telp1') ?>">
-            <input type="text" class="form-control" name="alamat" placeholder="alamat" value="<?php echo getValue('alamat1') ?>">
+            <input type="text" class="form-control" name="kota1" placeholder="kota" value="<?php echo getValue('kota1') ?>">
+            <input type="text" class="form-control" name="no_telp1" placeholder="no telp" value="<?php echo getValue('no_telp1') ?>">
+            <input type="text" class="form-control" name="alamat1" placeholder="alamat" value="<?php echo getValue('alamat1') ?>">
           </div>
           <div class="col-md-4 p-2">
             <label>Cabang 2</label>
-            <input type="text" class="form-control" name="kota" placeholder="kota" value="<?php echo getValue('kota2') ?>">
-            <input type="text" class="form-control" name="no_telp" placeholder="no telp" value="<?php echo getValue('no_telp2') ?>">
-            <input type="text" class="form-control" name="alamat" placeholder="alamat" value="<?php echo getValue('alamat2') ?>">
+            <input type="text" class="form-control" name="kota2" placeholder="kota" value="<?php echo getValue('kota2') ?>">
+            <input type="text" class="form-control" name="no_telp2" placeholder="no telp" value="<?php echo getValue('no_telp2') ?>">
+            <input type="text" class="form-control" name="alamat2" placeholder="alamat" value="<?php echo getValue('alamat2') ?>">
           </div>
           <div class="col-md-4 p-2">
             <label>Cabang 3</label>
-            <input type="text" class="form-control" name="kota" placeholder="kota" value="<?php echo getValue('kota3') ?>">
-            <input type="text" class="form-control" name="no_telp" placeholder="no telp" value="<?php echo getValue('no_telp3') ?>">
-            <input type="text" class="form-control" name="alamat" placeholder="alamat" value="<?php echo getValue('alamat3') ?>">
+            <input type="text" class="form-control" name="kota3" placeholder="kota" value="<?php echo getValue('kota3') ?>">
+            <input type="text" class="form-control" name="no_telp3" placeholder="no telp" value="<?php echo getValue('no_telp3') ?>">
+            <input type="text" class="form-control" name="alamat3" placeholder="alamat" value="<?php echo getValue('alamat3') ?>">
         </div>
       </div>
           <div class="form-btn mt-5 d-flex justify-content-between">
